@@ -1,0 +1,95 @@
+/* ---------- DIV PRINCIPALE ---------- */
+.generate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ---------- BOX ---------- */
+.boxGetIngredient {
+  /* background-color: rgb(170, 211, 180); */
+  width: 30vh;
+  height: 45vh;
+  text-align: center;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px gray;
+}
+.ingredient-card-legume .boxGetIngredient {
+  background-color: rgb(170, 211, 180);
+}
+.ingredient-card-feculent .boxGetIngredient {
+  background-color: rgb(225, 205, 170);
+}
+.ingredient-card-VPO .boxGetIngredient {
+  background-color: rgb(216, 167, 167);
+}
+.ingredient-card-autre .boxGetIngredient {
+  background-color: rgb(196, 185, 231);
+}
+.ingredient-card-sauce .boxGetIngredient {
+  background-color: rgb(252, 236, 205);
+}
+
+/* ---------- TITRE ---------- */
+.titreGetIngredient {
+  font-weight: bold;
+  color: antiquewhite;
+  /* background-color: rgb(16, 150, 103); */
+  padding: 5px;
+  margin: 21px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+.ingredient-card-legume .titreGetIngredient {
+  background-color: rgb(16, 150, 103);
+}
+.ingredient-card-feculent .titreGetIngredient {
+  background-color: rgb(150, 99, 16);
+}
+.ingredient-card-VPO .titreGetIngredient {
+  background-color: rgb(213, 37, 28);
+}
+.ingredient-card-autre .titreGetIngredient {
+  background-color: rgb(123, 7, 173);
+}
+.ingredient-card-sauce .titreGetIngredient {
+  background-color: rgb(246, 164, 57);
+}
+
+/* ---------- IMAGE ---------- */
+.imgIngredientStyle {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ---------- PREPARATION ---------- */
+.divPrepa {
+  height: 12vh;
+  width: 20vh;
+  align-items: center;
+  margin: auto;
+}
+.prepaGetIngredient {
+  opacity: 0.5;
+  font-size: 0.7em;
+  color: rgb(51, 128, 128);
+  text-align: justify;
+}
+.prepaGetIngredient:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* ---------- CHANGE ALIMENTS ---------- */
+.buttonGetIngredient {
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  border: 0px;
+}

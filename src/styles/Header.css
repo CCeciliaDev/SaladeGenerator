@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+.HeaderStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(216, 232, 232);
+  background-size: cover;
+  border-bottom: solid 3px rgb(99, 148, 133);
+  color: rgb(52, 93, 93);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.headTitle {
+  font-family: "Rubik Vinyl", cursive;
+}
+
+.headTitle {
+  font-size: 3em;
+  margin: 10px 0px;
+}
+.ssheadTitle {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0em 0em 1em 0em;
+}
+.headerLink {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: rgb(126, 167, 155);
+  padding: 0px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+a:hover {
+  color: rgb(51, 128, 128);
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
